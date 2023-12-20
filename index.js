@@ -175,17 +175,22 @@ let friends = [
 
 
 
-function getBooks (){
-  let resultedArray = []
+// function getBooks (){
+//   let resultedArray = []
 
-  for(let val of friends){
-    for(let i = 0 ; i< val.books.length; i++){
-      resultedArray.push(val.books[i])
-    }
-  }
-  return resultedArray
+//   for(let val of friends){
+//     for(let i = 0 ; i< val.books.length; i++){
+//       resultedArray.push(val.books[i])
+//     }
+//   }
+//   return resultedArray
 
-}
+// }
 
 
-console.log(getBooks())
+// console.log(getBooks())
+
+
+
+
+let author = "vikas singh"
