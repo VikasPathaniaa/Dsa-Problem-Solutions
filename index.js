@@ -137,17 +137,55 @@ let animalList = [
 
 // console.log(getShortestAnimal());
 
-const paliList = ["Radar", "hello", "level", "world", "deifind" , "naman"];
+//? return  palidron elements
+const paliList = ["Radar", "hello", "level", "world", "deifind", "naman"];
 
-function findPalidroms(arr) {
-  let resultedArray = arr.filter((item) => {
-    const isPalidrom = item.toLowerCase().split("").reverse().join("") == item.toLowerCase()
-    console.log("isPalidrom" , isPalidrom)
-    if (isPalidrom) {
-      return isPalidrom;
+// function findPalidroms(arr) {
+//   let resultedArray = arr.filter((item) => {
+//     const isPalidrom = item.toLowerCase().split("").reverse().join("") == item.toLowerCase()
+//     console.log("isPalidrom" , isPalidrom)
+//     if (isPalidrom) {
+//       return isPalidrom;
+//     }
+//   });
+//   return resultedArray
+// }
+
+// console.log(findPalidroms(paliList));
+
+//? return new array of books
+
+let friends = [
+  {
+    name: "Anna",
+    books: ["Bible", "Harry Potter"],
+    age: 21,
+  },
+  {
+    name: "Bob",
+    books: ["War and Peace", "Romeo and juliet"],
+    age: 26,
+  },
+  {
+    name: "Anna",
+    books: ["The Loard of the Rings", "The Shining"],
+    age: 18,
+  },
+];
+
+
+
+function getBooks (){
+  let resultedArray = []
+
+  for(let val of friends){
+    for(let i = 0 ; i< val.books.length; i++){
+      resultedArray.push(val.books[i])
     }
-  });
+  }
   return resultedArray
+
 }
 
-console.log(findPalidroms(paliList));
+
+console.log(getBooks())
