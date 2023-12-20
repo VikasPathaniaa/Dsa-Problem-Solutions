@@ -193,4 +193,6 @@ let friends = [
 
 
 
-let author = "vikas singh Pathania dnfandfakjdn jnsdfjnasdfn jndfjansfj   "
+let author = "vikas singh Pathania dnfandfakjdn jnsdfjnasdfn jndfjansfj "
+
+
