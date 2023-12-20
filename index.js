@@ -193,6 +193,6 @@ let friends = [
 
 
 
-let author = "vikas singh Pathania create merge commit  jnsdfjnasdfn jndfjansfj "
+let author = "vikas singh Pathania i am creating conflict   jnsdfjnasdfn jndfjansfj "
 
 
