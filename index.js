@@ -193,6 +193,6 @@ let friends = [
 
 
 
-let author = "Vikas Singh Pathania I am creating conflict."
+let author = "vikas singh Pathania i am creating conflict. Please resolve me."
 
 
