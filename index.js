@@ -173,8 +173,6 @@ let friends = [
   },
 ];
 
-
-
 // function getBooks (){
 //   let resultedArray = []
 
@@ -187,12 +185,46 @@ let friends = [
 
 // }
 
-
 // console.log(getBooks())
 
+//? merge nested Array
 
+let nestedArr = [
+  1,
+  2,
+  3,
+  4,
+  ["vikas", "rohit ", ["sumesh", 21, 43]],
+  "react js ",
+  "next js ",
+  ["555", "6666", "777"],
+];
 
+//first Approach
+// let mergedArray = nestedArr.flat(Infinity)
 
-let author = "vikas singh Pathania i am creating conflict. Please resolve me."
+let stringArray = [];
+let digitsArray = []
 
+// function mergedArray(arr) {
 
+//   for (let i = 0; i < arr.length; i++) {
+//     if (Array.isArray(arr[i])) {
+//       mergedArray(arr[i]);
+//     } else {
+//       if(typeof arr[i] === "string"){
+//         stringArray.push(arr[i]);
+//       } 
+//       if (typeof arr[i] === "number"){
+//         digitsArray.push(arr[i])
+//       }
+     
+//     }
+//   }
+//   return {
+//     stringArray: stringArray , 
+//     digitsArray: digitsArray
+//   };
+// }
+
+// console.log(mergedArray(nestedArr));
